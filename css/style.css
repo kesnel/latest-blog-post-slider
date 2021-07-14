@@ -1,0 +1,264 @@
+
+
+/*[ Latest Articles  ]
+///////////////////////////////////////////////////////////
+*/
+
+.SDEZ{
+    width: 100%;
+    height: 100%;
+
+    padding-top: 50px;
+    padding-bottom: 90px;
+}
+
+.SDEZHDR {
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.S1DETITC{
+    text-transform: uppercase;
+    color: var(--co-blue);
+    font-weight: 400;
+    letter-spacing: .7px;
+    font-size: 15px;
+    padding-top: 5px;
+}
+
+.SDEZHDR .SDEZHDRFLX{
+    width: 100%;
+    height: 100%;
+
+    align-items: center;
+    justify-content: space-between;
+}
+
+.SDEZHDR .S1DETITCC{
+    font-weight: 500;
+    font-size: 24px;
+}
+
+.SDEZRGT .SDEZRGTa{
+    display: inline-block;
+
+    padding: 6px 20px;
+
+    background: var(--bg-fade);
+    color: var(--co-text-fade);
+    border-radius: 30px;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.SDEZRGT .SDEZRGTa:hover{
+    color: var(--co);
+}
+
+/** Carousel **/
+
+.Grid-SLide{
+    position: relative!important;
+    width: 100%;
+    height: 100%;
+}
+
+.SDEZBCTRL{
+    width: 100%;
+    height: 100%;
+
+    position: absolute;
+    top: 0;
+}
+
+.SDEZCAROU{
+    z-index: 2; 
+}
+
+.SDEZBTN1{
+    left: -29px;
+}
+
+.SDEZBTN2{
+    right: -29px;
+}
+
+.SDEZBTN{
+    width: 45px;
+    height: 45px;
+
+    z-index: 3!important;
+
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+
+    margin: 0 5px;
+
+    background: var(--co-a);
+    border: none;
+    border-radius: 50%;
+
+    overflow: hidden;
+
+    -webkit-box-shadow: 0 2px 5px 0 rgba(0,0,0,.15);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.15);
+}
+
+.SDEZBTN .BcL{
+    width: 100%;
+    height: 100%;
+
+    background: transparent;
+
+    justify-content: center;
+    align-items: center;
+}
+
+.SDEZBTN.slick-disabled svg{
+    opacity: .4;
+}
+
+.SDEZBTN svg{
+    width: 26px;
+    height: 26px;
+
+    stroke: var(--co-text-fade-1);
+}
+
+/***/
+
+.SDEZBOX{
+    text-align: left;
+
+    background: var(--bg-fade);
+    overflow: hidden;
+
+    border-radius: 5px;
+
+    width: 100%;
+    display: block;
+}
+
+.SDEZBOX .linkIMG{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.SDEZBOX .linkIMG1:hover img{
+    opacity: .9;
+}
+
+.SDEZ--CSX1{
+    width: 100%;
+    height: 280px;
+
+    position: relative;
+
+    overflow: hidden;
+}
+
+.SDEZ--CSX1 .SDEZ--CSX1-F{
+    width: 100%;
+    height: 100%;
+
+    margin: 0;
+    padding: 0;
+
+    display: block;
+}
+
+.SDEZ--CSX1 .SDEZ--CSX1-F img{
+    width: 100%;
+    height: 100%;
+
+    display: block;
+
+    object-fit: cover;
+
+    transition: 310ms ease-in-out transform;
+}
+
+/** Tags on blog **/
+
+.SDEZ--tags-Ova{
+    width: 100%;
+
+    background: transparent;
+
+    position: absolute;
+    bottom: 0;
+    left: 0;
+}
+
+.SDEZ--tags-Ova .SDEZ--tags-Ova-FlX{
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.SDEZ--tags-Ova .SDEZ--tags-Name{
+    width: auto;
+    display: block;
+    background: var(--bg-fade);
+    color: var(--co);
+    padding: 5px 10px;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: 0px;
+}
+
+.SDEZ--tags-Ova .SDEZ--tags-Name:not(:last-child){
+    margin-right: 4px;
+}
+
+/** Profil **/
+
+.SDEZ--CSXdown{
+    padding: 15px 20px 20px 20px;
+}
+
+/** Text **/
+
+.SDEZ--CSX3{
+    padding-top: 5px;
+    padding-bottom: 20px;
+}
+
+.SDEZ--CSX3 .SDEZ--CSX3-DESC{
+    font-size: 20px;
+}
+
+.SDEZ--CSX2 {
+    padding-bottom: 3px;
+}
+
+.SDEZ--CSX2 .SDEZ--CSX--CC .SDEZ--CSX2-LINK{
+    display: inline-block;
+    transition: 0s;
+}
+
+.SDEZ--CSX2 .SDEZ--CSX--CC .SDEZ--CSX2-LINK:hover{
+    color: var(--co);
+}
+
+.SDEZ--CSX2 .SDEZ--CSX--CC{
+    font-size: 23px!important;
+    font-weight: 400;
+}
+
+/** Statistik **/
+
+.SDEZ--CSX-FoC2B .SDEZ--CSX-FoC2BC{
+    font-size: 16px;
+    color: var(--co-text-fade);
+}
+
+
+.SDEZ--CSX-FoC2B .SDEZ--CSX-FoC2BC .break{
+    font-weight: 600;
+}
+
+.SDEZ--CSX-FoC2B .SDEZ--CSX-FoC2BC .break:hover{
+    color: var(--co);
+}

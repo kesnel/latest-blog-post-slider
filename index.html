@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Articles Slider </title>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+</head>
+<body>
+
+
+    <!-- %%%%%% -->
+    <section class="S1DEA SDEZ">
+        <div class="container">
+            <!-- Header In-->
+            <div class="SDEZHDR">
+                <div class="dis-flex SDEZHDRFLX"> 
+                    <div class="SDEZLFT">
+                        <h1 class="S1DETITCC"> Recent posts </h1>
+                    </div>
+                    <div class="SDEZRGT">
+                        <a href="{% url 'blog' %}" class="SDEZRGTa"> View all articles  </a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Carousel In-->
+            <div class="SDEZMAIN">
+                <div class="Grid-SLide">
+                    <div class="SDEZCAROU owl-carousel owl-theme" id="SDEZCAROU">
+                        <!-- Punaise -->
+                        <div class="SDEZBOX">
+                            <div class="SDEZ--CSX1 SDEZ--CSXup">
+                                <figure class="SDEZ--CSX1-F">
+                                    <a href="{% url 'blog_detail' %}" class="linkIMG linkIMG1">
+                                        <img src="{% static 'media/post/articles/cover/a.webp' %}" alt="" class="SDEZ--CSX1-F-II">
+                                    </a>
+                                    <!-- Punaise Tags -->
+                                    <div class="SDEZ--tags-Ova">
+                                        <div class="dis-flex SDEZ--tags-Ova-FlX">
+                                            <a href="{% url 'blog' %}" class="SDEZ--tags-Name tag"> 
+                                                <span class="SDEZ--T-N"> Haiti  </span>
+                                            </a>
+                                            <div class="SDEZ--tags-Name"> 
+                                                <span class="SDEZ--T-N"> French   </span>
+                                            </div>
+                                            <div class="SDEZ--tags-Name"> 
+                                                <span class="SDEZ--T-N"> Politique  </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- /?/ -->
+                                </figure>
+                            </div>
+                            <div class="SDEZ--CSXdown">
+                                <div class="SDEZ--CSX2">
+                                    <h3 class="SDEZ--CSX--CC">
+                                        <a href="{% url 'blog_detail' %}" class="SDEZ--CSX2-LINK">
+                                           A walk through other people's expectations in Haiti
+                                        </a>
+                                    </h3>
+                                </div>
+                                <div class="SDEZ--CSX3">
+                                    <p class="SDEZ--CSX3-DESC">
+                                        The stunning sequel to the #1 New York Times bestseller Dear Martin. Incarcerated teen Quan writes letters to Justyce about his experiences in the American juvenile justice system. Perfect for fans...
+                                    </p>
+                                </div>
+                                <!-- Stats Post Articles-->
+                                <div class="SDEZ--CSX-FoC2B">
+                                    <p class="SDEZ--CSX-FoC2BC"> 
+                                        By <a href="{% url 'about' %}" class="break">Kesnel Samuel</a>
+                                        on Jan 09, 2021  
+                                    </p>
+                                </div>
+                                <!-- /?/ -->
+                            </div>
+                        </div>
+                        <!-- Punaise -->
+                        <div class="SDEZBOX">
+                            <div class="SDEZ--CSX1 SDEZ--CSXup">
+                                <figure class="SDEZ--CSX1-F">
+                                    <a href="{% url 'blog_detail' %}" class="linkIMG linkIMG1">
+                                        <img src="{% static 'media/post/articles/cover/c.webp' %}" alt="" class="SDEZ--CSX1-F-II">
+                                    </a>
+                                    <!-- Punaise Tags -->
+                                    <div class="SDEZ--tags-Ova">
+                                        <div class="dis-flex SDEZ--tags-Ova-FlX">
+                                            <div class="SDEZ--tags-Name"> 
+                                                <span class="SDEZ--T-N"> Haiti  </span>
+                                            </div>
+                                            <div class="SDEZ--tags-Name"> 
+                                                <span class="SDEZ--T-N"> French   </span>
+                                            </div>
+                                            <div class="SDEZ--tags-Name"> 
+                                                <span class="SDEZ--T-N"> Politique  </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- /?/ -->
+                                </figure>
+                            </div>
+                            <div class="SDEZ--CSXdown">
+                                <div class="SDEZ--CSX2">
+                                    <h3 class="SDEZ--CSX--CC">
+                                        <a href="{% url 'blog_detail' %}" class="SDEZ--CSX2-LINK">
+                                           A walk through other people's expectations in Haiti
+                                        </a>
+                                    </h3>
+                                </div>
+                                <div class="SDEZ--CSX3">
+                                    <p class="SDEZ--CSX3-DESC">
+                                        The stunning sequel to the #1 New York Times bestseller Dear Martin. Incarcerated teen Quan writes letters to Justyce about his experiences in the American juvenile justice system. Perfect for fans...
+                                    </p>
+                                </div>
+                                <!-- Stats Post Articles-->
+                                <div class="SDEZ--CSX-FoC2B">
+                                    <p class="SDEZ--CSX-FoC2BC"> 
+                                        By <a href="{% url 'about' %}" class="break">Kesnel Samuel</a>
+                                        on Feb 13, 2021  
+                                    </p>
+                                </div>
+                                <!-- /?/ -->
+                            </div>
+                        </div>
+                        <!-- Punaise -->
+                        <div class="SDEZBOX">
+                            <div class="SDEZ--CSX1 SDEZ--CSXup">
+                                <figure class="SDEZ--CSX1-F">
+                                    <a href="{% url 'about' %}" class="linkIMG linkIMG1">
+                                        <img src="{% static 'media/post/articles/cover/a.webp' %}" alt="" class="SDEZ--CSX1-F-II">
+                                    </a>
+                                    <!-- Punaise Tags -->
+                                    <div class="SDEZ--tags-Ova">
+                                        <div class="dis-flex SDEZ--tags-Ova-FlX">
+                                            <div class="SDEZ--tags-Name"> 
+                                                <span class="SDEZ--T-N"> Haiti  </span>
+                                            </div>
+                                            <div class="SDEZ--tags-Name"> 
+                                                <span class="SDEZ--T-N"> French   </span>
+                                            </div>
+                                            <div class="SDEZ--tags-Name"> 
+                                                <span class="SDEZ--T-N"> Politique  </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- /?/ -->
+                                </figure>
+                            </div>
+                            <div class="SDEZ--CSXdown">
+                                <div class="SDEZ--CSX2">
+                                    <h3 class="SDEZ--CSX--CC">
+                                        <a href="{% url 'about' %}" class="SDEZ--CSX2-LINK">
+                                           A walk through other people's expectations in Haiti
+                                        </a>
+                                    </h3>
+                                </div>
+                                <div class="SDEZ--CSX3">
+                                    <p class="SDEZ--CSX3-DESC">
+                                        The stunning sequel to the #1 New York Times bestseller Dear Martin. Incarcerated teen Quan writes letters to Justyce about his experiences in the American juvenile justice system. Perfect for fans...
+                                    </p>
+                                </div>
+                                <!-- Stats Post Articles-->
+                                <div class="SDEZ--CSX-FoC2B">
+                                    <p class="SDEZ--CSX-FoC2BC"> 
+                                        By <a href="{% url 'about' %}" class="break">Kesnel Samuel</a>
+                                        on March 31, 2021  
+                                    </p>
+                                </div>
+                                <!-- /?/ -->
+                            </div>
+                        </div>
+                        <!-- Punaise -->
+                        <div class="SDEZBOX">
+                            <div class="SDEZ--CSX1 SDEZ--CSXup">
+                                <figure class="SDEZ--CSX1-F">
+                                    <a href="{% url 'about' %}" class="linkIMG linkIMG1">
+                                        <img src="{% static 'media/post/articles/cover/a.webp' %}" alt="" class="SDEZ--CSX1-F-II">
+                                    </a>
+                                    <!-- Punaise Tags -->
+                                    <div class="SDEZ--tags-Ova">
+                                        <div class="dis-flex SDEZ--tags-Ova-FlX">
+                                            <div class="SDEZ--tags-Name"> 
+                                                <span class="SDEZ--T-N"> Haiti  </span>
+                                            </div>
+                                            <div class="SDEZ--tags-Name"> 
+                                                <span class="SDEZ--T-N"> French   </span>
+                                            </div>
+                                            <div class="SDEZ--tags-Name"> 
+                                                <span class="SDEZ--T-N"> Politique  </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!-- /?/ -->
+                                </figure>
+                            </div>
+                            <div class="SDEZ--CSXdown">
+                                <div class="SDEZ--CSX2">
+                                    <h3 class="SDEZ--CSX--CC">
+                                        <a href="{% url 'about' %}" class="SDEZ--CSX2-LINK">
+                                           A walk through other people's expectations in Haiti
+                                        </a>
+                                    </h3>
+                                </div>
+                                <div class="SDEZ--CSX3">
+                                    <p class="SDEZ--CSX3-DESC">
+                                        The stunning sequel to the #1 New York Times bestseller Dear Martin. Incarcerated teen Quan writes letters to Justyce about his experiences in the American juvenile justice system. Perfect for fans...
+                                    </p>
+                                </div>
+                                <!-- Stats Post Articles-->
+                                <div class="SDEZ--CSX-FoC2B">
+                                    <p class="SDEZ--CSX-FoC2BC"> 
+                                        By <a href="{% url 'about' %}" class="break">Kesnel Samuel</a>
+                                        on Jun 01, 2021  
+                                    </p>
+                                </div>
+                                <!-- /?/ -->
+                            </div>
+                        </div>
+                    </div>
+                    <div class="SDEZBCTRL">
+                        <button class="SDEZBTN SDEZBTN1">
+                            <div class="BcL BcLeft dis-flex">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 18l-6-6 6-6"/></svg>   
+                            </div> 
+                        </button>
+                        <button class="SDEZBTN SDEZBTN2">
+                            <div class="BcL BcRight dis-flex">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#000" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 18l6-6-6-6"/></svg>
+                            </div> 
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
